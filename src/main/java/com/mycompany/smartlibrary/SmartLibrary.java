@@ -17,6 +17,8 @@ public class SmartLibrary {
         if (!ditemukan) System.out.println("Koleksi tidak ditemukan.");
     }
 
+    // ts
+
     public static void cariKoleksi(int tahunTerbit, Koleksi[] daftarKoleksi, int jumlahKoleksi) {
         System.out.println("Mencari buku dengan Tahun Terbit: " + tahunTerbit);
         boolean ditemukan = false;
